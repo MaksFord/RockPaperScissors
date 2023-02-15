@@ -1,8 +1,12 @@
 #buttons
-{width:100px;
+{
     display:flex;
-flex-direction: column;}
+flex-direction: row;}
 #gameField {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+#pcChoice{
+    display:flex;
+    justify-content: center;
 }
