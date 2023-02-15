@@ -10,15 +10,19 @@
 </head>
 <body>
 <div id="gameField">
+    <h1 id="title">Rock Paper Scissors <span id="plus">+</span></h1>
+    <p id="rules">Rules are very simple: Rock breaks scissors, scissors cuts paper, paper covers rock</p>
     <div id="buttons">
         <button class="selectOp" id="rock"><img src="Rock.jpg" width="100px"></button>
         <button class="selectOp" id="paper"><img src="Paper.jpg"width="100px"></button>
         <button class="selectOp" id="scissors"><img src="Scissors.jpg"width="100px"></button>
-        <button class="selectOp" id="lizard"><img src="Lizard.jpg"width="100px"></button>
-        <button class="selectOp" id="spock"><img src="Spock.jpg"width="100px"></button>
+        <button class="selectOp secondary" id="lizard"><img src="Lizard.jpg"width="100px"></button>
+        <button class="selectOp secondary" id="spock"><img src="Spock.jpg"width="100px"></button>
+        <p class="text" id="playerText">Make your choice!</p>
     </div>
     <div id="pcChoice">
         <button id="pcImage"><img src="Rock.jpg" width="100px"></button>
+        <p class="text" id="computerText">Opponent choice is completely random!</p>
     </div>
 
 

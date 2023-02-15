@@ -1,7 +1,7 @@
 #buttons
-{
-    display:flex;
-flex-direction: row;}
+{display:flex;
+flex-direction: row;
+margin:10px;}
 #gameField {
     display:flex;
     flex-direction: column;
@@ -9,4 +9,17 @@ flex-direction: row;}
 #pcChoice{
     display:flex;
     justify-content: center;
+    margin:10px;
 }
+.secondary {
+    display: none;
+}
+#plus{
+    font-weight:bold;
+    cursor: pointer;
+    color: red;
+}
+.text{
+    margin:10px;
+}
+
